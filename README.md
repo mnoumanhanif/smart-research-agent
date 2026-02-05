@@ -104,7 +104,3 @@ We evaluated the fine-tuned model using **LLM-as-a-Judge** and quantitative metr
 * **Muhammad Nouman Hanif** - AI Engineering & System Architecture
 * **Syed Mujtaba Hassan** - Model Fine-Tuning & Evaluation
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
-
