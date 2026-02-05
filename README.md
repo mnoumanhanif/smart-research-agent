@@ -110,8 +110,6 @@ We evaluated the fine-tuned model using **LLM-as-a-Judge** and quantitative metr
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
-```
-
 ---
 
 ### 2. `requirements.txt`
