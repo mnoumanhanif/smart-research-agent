@@ -52,7 +52,7 @@ A Directed Acyclic Graph (DAG) of 5 specialized agents:
    ```bash
    git clone [https://github.com/yourusername/smart-research-agent.git](https://github.com/yourusername/smart-research-agent.git)
    cd smart-research-agent
-
+```
 ```
 
 2. **Install dependencies**
@@ -110,33 +110,3 @@ We evaluated the fine-tuned model using **LLM-as-a-Judge** and quantitative metr
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
----
-
-### 2. `requirements.txt`
-I have extracted these dependencies from your Python files and Notebook imports.
-
-```text
-torch
-transformers
-peft
-bitsandbytes
-accelerate
-langchain
-langchain-groq
-langchain-community
-langgraph
-streamlit
-arxiv
-semanticscholar
-evaluate
-rouge_score
-bert_score
-datasets
-pandas
-numpy
-scipy
-huggingface_hub
-google-generativeai
-jupyter
-
-```
