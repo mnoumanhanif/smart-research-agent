@@ -52,8 +52,6 @@ A Directed Acyclic Graph (DAG) of 5 specialized agents:
    ```bash
    git clone [https://github.com/yourusername/smart-research-agent.git](https://github.com/yourusername/smart-research-agent.git)
    cd smart-research-agent
-```
-```
 
 2. **Install dependencies**
 ```bash
