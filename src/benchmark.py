@@ -12,9 +12,8 @@ import google.generativeai as genai
 # ==========================================
 # 🔑 CONFIGURATION
 # ==========================================
-HF_TOKEN = "hf_"
-# PASTE YOUR GEMINI KEY HERE
-GEMINI_API_KEY = "AI" 
+HF_TOKEN = os.environ.get("HF_TOKEN", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 BASE_MODEL_ID = "meta-llama/Meta-Llama-3-8B"
 ADAPTER_ID = "Mujtaba007/llama3-arxiv-lora"
@@ -43,7 +42,7 @@ def get_judge_score(original_text, summary):
     try:
         res = judge_model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
         return json.loads(res.text)
-    except:
+    except (json.JSONDecodeError, Exception):
         return {"fluency": 1, "factuality": 1, "coverage": 1}
 
 def evaluate_pipeline(model, tokenizer, dataset, name):

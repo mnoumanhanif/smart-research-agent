@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model weights and large files
+*.bin
+*.pt
+*.safetensors
+*.gguf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Benchmark outputs
+final_benchmark_results.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Pytest
+.pytest_cache/
