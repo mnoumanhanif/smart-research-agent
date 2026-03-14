@@ -17,6 +17,8 @@ datasets
 pandas
 numpy
 scipy
+tqdm
 huggingface_hub
 google-generativeai
 jupyter
+pytest
